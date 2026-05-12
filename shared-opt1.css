@@ -430,14 +430,14 @@ ul li strong {
 
 @media (max-width: 960px) {
   :root { --sidebar-width: 280px; }
-}
 
-@media (max-width: 499px) {
   .sidebar.open {
     width: 100vw;
     min-width: 100vw;
   }
+}
 
+@media (max-width: 499px) {
   .article-container {
     padding-top: 80px;
   }
